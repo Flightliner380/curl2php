@@ -189,7 +189,7 @@ function curlToPHP(curl) {
 		delete phpHeader;
 
 		// complete request
-		php += '\n' + result + '\n' + err + endCurl
+		php += '\n' + ssl + '\n' + result + '\n' + err + endCurl
 
 		return php;
 	}
